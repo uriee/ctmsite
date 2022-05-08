@@ -5,11 +5,15 @@
 //===== Prealoder
 
 window.onload = function () {
-	window.setTimeout(fadeout, 500);
+	window.setTimeout(fadeout, 3000);
+	window.setTimeout(hide, 5000);
 }
 
 function fadeout() {
 	document.querySelector('.preloader').style.opacity = '0';
+}
+
+function hide() {
 	document.querySelector('.preloader').style.display = 'none';
 }
 

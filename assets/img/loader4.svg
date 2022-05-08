@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-200 -200 401 402" style="backgroud:#fff;">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-4);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient-2);
+        fill-opacity: .32;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx=".72" cy="2.17" fx=".72" fy="2.17" r="200" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#fdfeff"/>
+      <stop offset=".4" stop-color="#aae7ff"/>
+      <stop offset=".58" stop-color="#8adfff"/>
+      <stop offset=".63" stop-color="#7ec6ff"/>
+      <stop offset=".7" stop-color="#6ca2ff"/>
+      <stop offset=".77" stop-color="#618dff"/>
+      <stop offset=".81" stop-color="#5e85ff"/>
+      <stop offset=".83" stop-color="#5c70ff"/>
+      <stop offset=".86" stop-color="#5a48ff"/>
+      <stop offset=".9" stop-color="#5828ff"/>
+      <stop offset=".94" stop-color="#5712ff"/>
+      <stop offset=".97" stop-color="#5604ff"/>
+      <stop offset="1" stop-color="#5600ff"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="69.08" cy="2.25" fx="-38.64" fy="2.25" r="169.86" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".02" stop-color="#faf8ff"/>
+      <stop offset=".51" stop-color="#a374ff"/>
+      <stop offset=".85" stop-color="#6b20ff"/>
+      <stop offset="1" stop-color="#5600ff"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="2.21" cy=".54" fx="2.21" fy=".54" r="98.46" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".26" stop-color="#eefaff"/>
+      <stop offset=".61" stop-color="#aae7ff"/>
+      <stop offset=".8" stop-color="#8adfff"/>
+      <stop offset=".81" stop-color="#7ec6ff"/>
+      <stop offset=".84" stop-color="#6ca2ff"/>
+      <stop offset=".86" stop-color="#618dff"/>
+      <stop offset=".87" stop-color="#5e85ff"/>
+      <stop offset=".88" stop-color="#5c7aff"/>
+      <stop offset=".9" stop-color="#5a64ff"/>
+      <stop offset=".92" stop-color="#5856ff"/>
+      <stop offset=".93" stop-color="#5852ff"/>
+      <stop offset=".94" stop-color="#573cff"/>
+      <stop offset=".96" stop-color="#5622ff"/>
+      <stop offset=".97" stop-color="#560fff"/>
+      <stop offset=".98" stop-color="#5603ff"/>
+      <stop offset="1" stop-color="#5600ff"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="62.15" cy="2.19" fx="62.15" fy="2.19" r="96.67" gradientTransform="translate(0 -.53) scale(1 1.24)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".66" stop-color="#8adfff"/>
+      <stop offset=".67" stop-color="#7ec6ff"/>
+      <stop offset=".69" stop-color="#6ca2ff"/>
+      <stop offset=".71" stop-color="#618dff"/>
+      <stop offset=".73" stop-color="#5e85ff"/>
+      <stop offset=".74" stop-color="#5c7aff"/>
+      <stop offset=".79" stop-color="#5a64ff"/>
+      <stop offset=".83" stop-color="#5856ff"/>
+      <stop offset=".87" stop-color="#5852ff"/>
+      <stop offset=".89" stop-color="#573cff"/>
+      <stop offset=".91" stop-color="#5622ff"/>
+      <stop offset=".94" stop-color="#560fff"/>
+      <stop offset=".97" stop-color="#5603ff"/>
+      <stop offset="1" stop-color="#5600ff"/>
+    </radialGradient>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g id="Posters"/>
+    <g id="Poster"/>
+    <g id="Poster-2" data-name="Poster"/>
+  </g>
+  <g id="source">
+    <g id="logoFlat"/>
+  </g>
+  <g id="Ilustrations"/>
+  <g id="Features"/>
+  <g id="loader3">
+    <g id="loader4">
+      <g id="logo2" transform="scale(0.1,0.1)">
+        <g>
+          <circle cx=".72" cy="2.17" r="200"/>
+          <path class="cls-3" d="M.72-158.88c43.02,0,83.46,16.75,113.88,47.17,30.42,30.42,47.17,70.86,47.17,113.88s-16.75,83.46-47.17,113.88c-30.42,30.42-70.86,47.17-113.88,47.17s-83.46-16.75-113.88-47.17c-30.42-30.42-47.17-70.86-47.17-113.88s16.75-83.46,47.17-113.88c30.42-30.42,70.86-47.17,113.88-47.17m0-38.95c-110.46,0-200,89.54-200,200S-109.74,202.17,.72,202.17,200.72,112.63,200.72,2.17,111.18-197.83,.72-197.83H.72Z"/>
+        </g>
+        <path class="cls-4" d="M144.47,2.25c0,47.87-33.98,92.67-71.61,92.67-30.57,0-54.32-19.67-68.08-46.94-.89-1.67-1.7-3.34-2.41-5.01C-3.27,30.46-6.31,16.45-6.31,2.25S-3.36-25.3,1.92-37.63c1.25-2.97,2.68-5.84,4.2-8.63h.09c14.12-25.79,37.16-44.16,66.65-44.16,40.94,0,71.61,44.81,71.61,92.67Z"/>
+        <path class="cls-1" d="M50.34,.39C50.34,27.75,28.14,49.95,.78,49.95c-.49,0-.97,0-1.46-.1-.97-1.75-1.85-3.5-2.63-5.26C-9.44,31.45-12.75,16.75-12.75,1.85S-9.54-27.07-3.79-40.02c1.36-3.12,2.92-6.13,4.58-9.05h.1c27.36,.1,49.46,22.1,49.46,49.46Z"/>
+        <path class="cls-2" d="M95.69-96.47c-18.94-8.66-41.34-7.68-60.28,.68C16.39-87.61,1.33-72.39-9.93-55.37l-.4,.42c-8.28,13-13.14,27.9-14.82,43.24C-29.87,33.31-5.17,83.17,37.55,101.03,101.95,127.31,150.51,60.53,150.03,1.67c-.24-38.64-17.96-80.62-54.34-98.14ZM44.91,84.57C23.17,73.47,8.91,50.47,2.75,27.23-2.77,5.71,.15-16.97,8.13-37.55c.42-1.12,.88-2.22,1.34-3.3,6.78-16.4,17.76-31.54,33.2-40.14C98.53-110.59,141.67-50.27,140.69,1.67c.48,48.82-42.62,109.86-95.78,82.9Z"/>
+      </g>
+    </g>
+  </g>
+
+  <animateTransform
+  xlink:href="#logo2" 
+  attributeName="transform"
+  type="scale"
+  values="0.1,0.1; 8,8"
+	keyTimes="0; 1"
+	calcMode="spline"
+  keySplines="0.42, 0.0, 1.0, 1.0;"	
+  begin="0.5s" 
+  dur="6.5s" 
+  repeatCount="1"
+  id="logoscale">
+  </animateTransform>
+
+  <animateTransform 
+  xlink:href="#loader4"
+  attributeName="transform"
+  attributeType="XML"
+  type="translate"
+  values="0,0; -1000,0"
+	keyTimes="0; 1"
+  keySplines="0.42, 0.0, 1.0, 1.0;"	
+	calcMode="spline"
+  dur="7s"
+  begin="0"
+  repeatCount="1"
+  fill="freeze" 
+  id="logomove">
+  </animateTransform>
+
+  <animateTransform 
+  xlink:href="#loader3"
+  attributeName="transform"
+  attributeType="XML"
+  type="translate"
+  values="0,0; 200, -10; 0,0"
+	keyTimes="0; 0.7; 1"
+  keySplines="0.0, 0.0, 0.58, 1.0; 0.42, 0.0, 1.0, 1.0;"	
+	calcMode="spline"
+  dur="7s"
+  begin="0"
+  repeatCount="1"
+  fill="freeze" 
+  id="loadermove">
+  </animateTransform>
+
+
+
+</svg>
