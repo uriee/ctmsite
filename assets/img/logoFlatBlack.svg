@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 41.08 41.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="20.54" cy="20.54" fx="20.54" fy="20.54" r="20.54" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e3e3e3"/>
+      <stop offset=".05" stop-color="#f0f0f0"/>
+      <stop offset=".2" stop-color="#aae4fa"/>
+      <stop offset=".28" stop-color="#8adfff"/>
+      <stop offset=".35" stop-color="#7ec6ff"/>
+      <stop offset=".47" stop-color="#6ca2ff"/>
+      <stop offset=".57" stop-color="#618dff"/>
+      <stop offset=".63" stop-color="#5e85ff"/>
+      <stop offset=".65" stop-color="#5c7aff"/>
+      <stop offset=".71" stop-color="#5a64ff"/>
+      <stop offset=".77" stop-color="#5856ff"/>
+      <stop offset=".82" stop-color="#5852ff"/>
+      <stop offset=".84" stop-color="#5742ff"/>
+      <stop offset=".88" stop-color="#5625ff"/>
+      <stop offset=".92" stop-color="#5610ff"/>
+      <stop offset=".96" stop-color="#5604ff"/>
+      <stop offset="1" stop-color="#5600ff"/>
+    </radialGradient>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1"/>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="source">
+      <g id="logoFlat">
+        <circle cx="20.54" cy="20.54" r="18.5"/>
+        <path id="logoFlatGrad" class="cls-1" d="M20.54,0C9.2,0,0,9.2,0,20.54s9.2,20.54,20.54,20.54,20.54-9.2,20.54-20.54S31.89,0,20.54,0Zm1.45,15.5c1.47-2.29,3.76-3.65,6.22-3.65,3.71,0,7.08,4.12,7.08,8.64,0,4.28-3.57,8.64-7.08,8.64-2.57,0-4.9-1.44-6.37-3.89,2.17-.58,3.78-2.54,3.78-4.9s-1.53-4.21-3.63-4.84Zm-1.45,21.58c-9.12,0-16.54-7.42-16.54-16.54S11.42,4,20.54,4c6.18,0,11.57,3.41,14.41,8.44-1.78-2.01-4.18-3.29-6.74-3.29-3.35,0-6.45,1.76-8.42,4.76l-.43,.69c-.19,.34-.37,.69-.53,1.05-.68,1.53-1.04,3.2-1.04,4.85s.38,3.42,1.08,4.93c.1,.22,.21,.44,.31,.62,1.87,3.57,5.33,5.78,9.02,5.78,2.68,0,5.27-1.57,7.11-3.91-2.72,5.42-8.32,9.16-14.78,9.16Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

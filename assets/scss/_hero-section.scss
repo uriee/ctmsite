@@ -2,11 +2,15 @@
     03.Hero-section CSS
 ===========================*/
 .hero-section {
-    background-image: linear-gradient(#365ae1 0%, #244ae2 4.66%, #1029a6 76.69%, #1029a6 100%);
-    padding-top: 100px;
-    padding-bottom: 80px;
+    background: $ctm-hero-grad; 
+    padding-top: 50px;
+    padding-bottom: 130px;
     position: relative;
     z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
 
     @media #{$laptop} {
         padding-top: 220px;
@@ -53,9 +57,10 @@
         }
 
         p {
-            font-weight: 500;
+            font-weight: 300;
             margin-bottom: 30px;
         }
+
     }
 
     .hero-img {
@@ -83,27 +88,15 @@
         }
     }
 
-    .shapes {
-        .shape {
-            position: absolute;
-            width: 970px;
-            height: 540px;
-            background: rgba($white, .05);
-            border-radius: 73px;
-            z-index: -1;
-            transform: rotate(-26deg);
-        }
-        .shape-1 {
-            top: -344px;
-            left: -124px;
-        }
-        .shape-2 {
-            bottom: 0;
-            left: -224px;
-        }
-        .shape-3 {
-            top: -393px;
-            left: 540px;
-        }
-    }
+ 
+
+    .buy-now {
+        margin-right: 4%;
+        margin-bottom: 4%;
+      }
+      
+      .meet-now {
+        margin-right: 4%;
+        margin-bottom: 4%;
+      }
 }

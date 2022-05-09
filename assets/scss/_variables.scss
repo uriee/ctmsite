@@ -39,4 +39,11 @@ $xs:'(max-width: 767px)';
 $sm: 'only screen and (min-width: 480px) and (max-width: 767px)';
 
 
-$ctmBlack :black;
+$ctm-black :black;
+$ctm-name-perple: #5600ff;
+$ctm-name-white: white;
+$ctm-stiky-color: #0f082a;
+$ctm-navbar-selected-color:#be85e4;
+$ctm-hero-grad : linear-gradient(#0f082a 0%, #0f082a 4.66%, #281f4f 76.69%, #221a44 100%);
+$ctm-theam-btn-grad: linear-gradient(to right, #5d00ff 0%, #6200ff 50%, #9000ff 100%);
+$ctm-main-background: #bac6f2;

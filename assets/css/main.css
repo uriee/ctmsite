@@ -12,7 +12,7 @@ body {
   font-style: normal;
   color: #65677E;
   overflow-x: hidden;
-  background: #F4F7FC;
+  background: #bac6f2;
 }
 
 * {
@@ -155,7 +155,7 @@ p {
   z-index: 5;
   transition: all 0.4s ease-in-out;
   border: none;
-  background: linear-gradient(to right, #34b15e 0%, #73e09a 50%, #34b15e 100%);
+  background: linear-gradient(to right, #5d00ff 0%, #6200ff 50%, #9000ff 100%);
   background-size: 200% auto;
   overflow: hidden;
 }
@@ -212,6 +212,25 @@ p {
   }
   100% {
     transform: translateY(30px);
+  }
+}
+.rotate {
+  transform-origin: 25px 25px;
+  -webkit-transform-origin: 50% 50%;
+  /* -webkit-animation: rotate 4s cubic-bezier(.49,.05,.32,1.04) infinite ;
+  animation: rotate 4s cubic-bezier(.49,.05,.32,1.04) infinite ; */
+  -webkit-animation: rotate 8s infinite;
+  animation: rotate 8s infinite;
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-tracsform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
   }
 }
 /*===== All Section Title Style =====*/
@@ -989,7 +1008,7 @@ p {
 .sticky {
   position: fixed;
   z-index: 99;
-  background: #365ae1;
+  background: #0f082a;
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease-out 0s;
 }
@@ -1015,7 +1034,18 @@ p {
   padding: 0;
 }
 .navbar-brand img {
-  max-width: 150px;
+  max-width: 40px;
+}
+
+.navbar-brand p {
+  display: inline-block;
+  color: #5600ff;
+  margin-left: 5px;
+}
+.navbar-brand .me {
+  display: inline-block;
+  color: white;
+  margin-left: 0;
 }
 
 .navbar-toggler {
@@ -1115,7 +1145,7 @@ p {
   position: absolute;
   width: 0%;
   height: 3px;
-  background: #85E4A5;
+  background: #be85e4;
   left: 0;
   right: 0;
   bottom: 0;
@@ -1227,11 +1257,15 @@ p {
     03.Hero-section CSS
 ===========================*/
 .hero-section {
-  background-image: linear-gradient(#365ae1 0%, #244ae2 4.66%, #1029a6 76.69%, #1029a6 100%);
-  padding-top: 100px;
-  padding-bottom: 80px;
+  background: linear-gradient(#0f082a 0%, #0f082a 4.66%, #281f4f 76.69%, #221a44 100%);
+  padding-top: 50px;
+  padding-bottom: 130px;
   position: relative;
   z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-section {
@@ -1291,7 +1325,7 @@ p {
   }
 }
 .hero-section .hero-content-wrapper p {
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -1324,26 +1358,13 @@ p {
     margin-top: 50px;
   }
 }
-.hero-section .shapes .shape {
-  position: absolute;
-  width: 970px;
-  height: 540px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 73px;
-  z-index: -1;
-  transform: rotate(-26deg);
+.hero-section .buy-now {
+  margin-right: 4%;
+  margin-bottom: 4%;
 }
-.hero-section .shapes .shape-1 {
-  top: -344px;
-  left: -124px;
-}
-.hero-section .shapes .shape-2 {
-  bottom: 0;
-  left: -224px;
-}
-.hero-section .shapes .shape-3 {
-  top: -393px;
-  left: 540px;
+.hero-section .meet-now {
+  margin-right: 4%;
+  margin-bottom: 4%;
 }
 
 /*===========================
@@ -1862,6 +1883,9 @@ p {
 /*===========================
     13.footer css 
 ===========================*/
+.footer {
+  background: black;
+}
 .footer .footer-widget p {
   color: #fff;
 }
@@ -1869,6 +1893,9 @@ p {
   font-size: 26px;
   margin-bottom: 40px;
   color: #fff;
+}
+.footer .footer-widget .logo-img {
+  width: 100px;
 }
 .footer .footer-widget ul.footer-links li a {
   color: #fff;
