@@ -125,7 +125,7 @@
     <rect id="nameCover" x="569" y="636.38" width="880" height="194.62"/>
   </g>
 
-  <animate 
+  <!-- <animate 
            xlink:href="#r1"
            attributeName="y" 
            from="-510"
@@ -134,9 +134,9 @@
            begin="0.5s"
            repeatCount="1"
            fill="freeze" 
-           id="r1move"/>
+           id="r1move"/> -->
 
- <animate 
+ <!-- <animate 
            xlink:href="#r2"
            attributeName="y" 
            from="34.13"
@@ -145,7 +145,7 @@
            begin="r1move.begin"
            repeatCount="1"
            fill="freeze" 
-           id="r2move"/>
+           id="r2move"/> -->
 
             <animate 
            xlink:href="#nameCover"
@@ -153,14 +153,14 @@
            from="636"
            to="830" 
            dur="0.5s"
-           begin="r2move.end"
+           begin="0.2"
            repeatCount="1"
            fill="freeze" 
            id="covermove"/>
 
       
              <animate 
-           xlink:href="#r1"
+           xlink:href="#r2"
            attributeName="opacity" 
            from="1"
            to="0" 

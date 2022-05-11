@@ -256,17 +256,19 @@ p {
   display: flex;
   align-items: center;
   align-content: center;
+  flex-direction: column;
   height: 100%;
   width: 100%;
   /* Change Background Color */
-  background: black;
+  background: linear-gradient(#10001a 0%, #10001a 4.66%, #350934 76.69%, #200134 100%);
   z-index: 99999;
   opacity: 1;
-  transition: opacity 2s linear;
+  transition: opacity 1.5s linear;
 }
 
 .loader {
   width: 30%;
+  margin-top: 15%;
   display: inline-block;
   align-self: center;
 }

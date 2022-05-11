@@ -276,18 +276,20 @@ p {
     display: flex;
     align-items: center;
     align-content: center;
+    flex-direction: column;
     height: 100%;
     width:  100%;
     /* Change Background Color */
-    background: $ctm-black;
+    background: $ctm-hero-grad2; 
     z-index: 99999;
-
+    
     opacity: 1;
-    transition: opacity 2s linear;
+    transition: opacity 1.5s linear;
 }
 
 .loader {
     width: 30%;
+    margin-top: 15%;
     display:inline-block;
     align-self: center;
 }
