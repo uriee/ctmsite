@@ -260,7 +260,7 @@ p {
   height: 100%;
   width: 100%;
   /* Change Background Color */
-  background: linear-gradient(#10001a 0%, #10001a 4.66%, #350934 76.69%, #200134 100%);
+  background: linear-gradient(#10001a 0%, #350934 80.69%, #350934 100%);
   z-index: 99999;
   opacity: 1;
   transition: opacity 1.5s linear;
@@ -1259,7 +1259,7 @@ p {
     03.Hero-section CSS
 ===========================*/
 .hero-section {
-  background: linear-gradient(#10001a 0%, #10001a 4.66%, #350934 76.69%, #200134 100%);
+  background: linear-gradient(#10001a 0%, #350934 80.69%, #350934 100%);
   padding-top: 50px;
   padding-bottom: 130px;
   position: relative;
@@ -1360,11 +1360,43 @@ p {
     margin-top: 50px;
   }
 }
-.hero-section .buy-now {
-  margin-right: 4%;
-  margin-bottom: 4%;
+.hero-section #slogen {
+  font-weight: 500;
+  line-height: 140%;
 }
-.hero-section .meet-now {
+.hero-section #subtitle {
+  margin-bottom: 14%;
+}
+.hero-section #slogen, .hero-section #subtitle {
+  text-align: right;
+  color: rgb(218, 205, 212);
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .hero-section #slogen, .hero-section #subtitle {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-section #slogen, .hero-section #subtitle {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-section #slogen, .hero-section #subtitle {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .hero-section #slogen, .hero-section #subtitle {
+    text-align: left;
+  }
+}
+@media (max-width: 767px) {
+  .hero-section #slogen, .hero-section #subtitle {
+    text-align: left;
+  }
+}
+.hero-section .buy-now, .hero-section .meet-now {
   margin-right: 4%;
   margin-bottom: 4%;
 }

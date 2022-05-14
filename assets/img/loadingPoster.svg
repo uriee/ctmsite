@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+
+<script type="text/javascript"><![CDATA[
+   
+
+
+function myFunction(x) {
+  if (x.matches) { 
+     var svg = document.getElementById('svg');
+    	svg.setAttribute("viewBox","1000 -1000 1080 1920");
+  }
+}
+
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+
+function myFunction(x) {
+  var svg = document.getElementById('svg');
+  var page1 = document.getElementById('page');
+
+  if (x.matches) { 
+    	svg.setAttribute("viewBox","900 -800 1080 1920");
+      page1.setAttribute("transform","translate(1000, -800)");
+  } else {
+    	svg.setAttribute("viewBox","0 0 1920 1080");
+  }
+}
+
+]]></script>
+
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#mainGradient);
+        opacity: .55;
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient-8);
+        stroke: url(#logoFLatGrad-3);
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .posterButton, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient-9);
+        stroke: url(#logoFLatGrad-4);
+      }
+
+      .cls-5 {
+        stroke: url(#fe-2);
+      }
+
+      .cls-5, .cls-6, .cls-13 {
+        stroke-width: 4px;
+      }
+
+      .cls-6 {
+        stroke: url(#fe-3);
+      }
+
+      .cls-14 {
+        fill: url(#radial-gradient-5);
+      }
+
+      .cls-15 {
+        fill: #5600b9;
+      }
+
+      .cls-7 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-7, .cls-10, .cls-11, .cls-12 {
+        stroke: aqua;
+        stroke-width: .25px;
+      }
+
+      .cls-16 {
+        fill: url(#radial-gradient-10);
+      }
+
+      .posterButton {
+        fill: #5600ff;
+        stroke: #000;
+      }
+
+      .cls-8 {
+        fill: url(#radial-gradient-7);
+        opacity: .9;
+        stroke: url(#logoFLatGrad-2);
+      }
+
+      .cls-9 {
+        fill: url(#radial-gradient-6);
+        opacity: .16;
+        stroke: url(#logoFLatGrad);
+        stroke-width: 3.06px;
+      }
+
+      .cls-17 {
+        font-family: Helvetica, Helvetica;
+        font-size: 36px;
+      }
+
+      .cls-17, .cls-18 {
+        fill: #fff;
+      }
+
+      .cls-10 {
+        fill: url(#radial-gradient-4);
+      }
+
+      .cls-11 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-12 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-13 {
+        stroke: url(#fe);
+      }
+
+      .cls-19 {
+        opacity: .25;
+      }
+
+      .cls-20 {
+        mix-blend-mode: lighten;
+        opacity: .5;
+      }
+
+      .cls-18 {
+        font-family: Helvetica-Bold, Helvetica;
+        font-size: 60px;
+      }
+
+      .cls-21 {
+        isolation: isolate;
+      }
+    </style>
+    <radialGradient id="mainGradient" cx="1081.48" cy="446.65" fx="1081.48" fy="446.65" r="959.21" gradientTransform="translate(-479.75 -269.5) scale(1.5)" gradientUnits="userSpaceOnUse">
+      <stop offset=".17" stop-color="#15c1ff"/>
+      <stop offset=".37" stop-color="#197697"/>
+      <stop offset=".58" stop-color="#1b4e60"/>
+      <stop offset=".87" stop-color="#1c3841"/>
+      <stop offset="1" stop-color="#1c3e49"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient" cx="1122.72" cy="411.48" fx="1122.72" fy="411.48" r="890.12" gradientTransform="translate(798.9 -974.42) rotate(28.73) scale(1 2.06)" gradientUnits="userSpaceOnUse">
+      <stop offset=".43" stop-color="#15c1ff" stop-opacity=".1"/>
+      <stop offset=".78" stop-color="#1c3e49" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="783.93" cy="571.8" fx="783.93" fy="571.8" r="890.12" gradientTransform="translate(2528.55 -242.42) rotate(91.02) scale(1 2.06)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="783.93" cy="571.8" fx="783.93" fy="571.8" r="890.12" gradientTransform="translate(2148.34 1211.24) rotate(150.71) scale(.96 1.77) skewX(-16.52)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-4" cx="1198.8" cy="303.45" fx="1198.8" fy="303.45" r="890.12" gradientTransform="translate(-147.35 -320.35) rotate(-7.73) scale(1.04 2.31) skewX(16.43)" xlink:href="#radial-gradient"/>
+    <linearGradient id="fe" x1="1633.5" y1="644.5" x2="1835.5" y2="644.5" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#570ecb"/>
+      <stop offset=".03" stop-color="#6129d8"/>
+      <stop offset=".09" stop-color="#735af0"/>
+      <stop offset=".11" stop-color="#6d4ae8"/>
+      <stop offset=".18" stop-color="#5709c8"/>
+      <stop offset=".27" stop-color="#5812cd"/>
+      <stop offset=".27" stop-color="#5c17d0"/>
+      <stop offset=".32" stop-color="#9860ff"/>
+      <stop offset=".44" stop-color="#5815cf"/>
+      <stop offset=".48" stop-color="#5831e5"/>
+      <stop offset=".54" stop-color="#5852ff"/>
+      <stop offset=".55" stop-color="#5848f7"/>
+      <stop offset=".57" stop-color="#5829df"/>
+      <stop offset=".59" stop-color="#5815d1"/>
+      <stop offset=".6" stop-color="#580fcc"/>
+      <stop offset=".66" stop-color="#5e07ff"/>
+      <stop offset=".67" stop-color="#5e1cff"/>
+      <stop offset=".69" stop-color="#5e36ff"/>
+      <stop offset=".7" stop-color="#5e49ff"/>
+      <stop offset=".72" stop-color="#5e55ff"/>
+      <stop offset=".73" stop-color="#5f59ff"/>
+      <stop offset="1" stop-color="#5600c1"/>
+    </linearGradient>
+    <linearGradient id="fe-2" data-name="fe" x1="1634" y1="893" x2="1836" y2="893" xlink:href="#fe"/>
+    <linearGradient id="fe-3" data-name="fe" x1="1369" y1="893" x2="1571" y2="893" xlink:href="#fe"/>
+    <radialGradient id="radial-gradient-5" cx="1160.5" cy="391.5" fx="1160.5" fy="391.5" r="260" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-6" cx="1160.5" cy="390.5" fx="1160.5" fy="390.5" r="200" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".01" stop-color="#fdfeff"/>
+      <stop offset=".69" stop-color="#aae7ff"/>
+      <stop offset=".99" stop-color="#8adfff"/>
+    </radialGradient>
+    <radialGradient id="logoFLatGrad" cx="1160.5" cy="390.5" fx="1160.5" fy="390.5" r="201.53" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#fdfeff"/>
+      <stop offset=".2" stop-color="#aae7ff"/>
+      <stop offset=".28" stop-color="#8adfff"/>
+      <stop offset=".37" stop-color="#7ec6ff"/>
+      <stop offset=".52" stop-color="#6ca2ff"/>
+      <stop offset=".65" stop-color="#618dff"/>
+      <stop offset=".73" stop-color="#5e85ff"/>
+      <stop offset=".74" stop-color="#5c7aff"/>
+      <stop offset=".79" stop-color="#5a64ff"/>
+      <stop offset=".83" stop-color="#5856ff"/>
+      <stop offset=".87" stop-color="#5852ff"/>
+      <stop offset=".89" stop-color="#573cff"/>
+      <stop offset=".91" stop-color="#5622ff"/>
+      <stop offset=".94" stop-color="#560fff"/>
+      <stop offset=".97" stop-color="#5603ff"/>
+      <stop offset="1" stop-color="#5600ff"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-7" cy="390.5" fy="390.5" r="62" xlink:href="#radial-gradient-6"/>
+    <radialGradient id="logoFLatGrad-2" data-name="logoFLatGrad" cy="390.5" fy="390.5" r="62.5" xlink:href="#logoFLatGrad"/>
+    <radialGradient id="radial-gradient-8" cx="1160.5" cy="390.5" fx="1160.5" fy="390.5" r="62" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b5ffff"/>
+      <stop offset=".99" stop-color="#8adfff"/>
+    </radialGradient>
+    <radialGradient id="logoFLatGrad-3" data-name="logoFLatGrad" cy="390.5" fy="390.5" r="62.5" xlink:href="#logoFLatGrad"/>
+    <radialGradient id="radial-gradient-9" cx="1160.1" cy="390.83" fx="1160.1" fy="390.83" r="200" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6606b0"/>
+      <stop offset=".32" stop-color="#6705b5" stop-opacity=".97"/>
+      <stop offset=".58" stop-color="#6c04c4" stop-opacity=".87"/>
+      <stop offset=".81" stop-color="#7302df" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#7d00fe" stop-opacity=".5"/>
+    </radialGradient>
+    <radialGradient id="logoFLatGrad-4" data-name="logoFLatGrad" cx="1160.1" cy="390.48" fx="1160.1" fy="390.48" r="200.49" gradientTransform="translate(0 .32)" xlink:href="#logoFLatGrad"/>
+    <radialGradient id="radial-gradient-10" cx="1249.9" cy="390.07" fx="1136.18" fy="390.07" r="128.87" gradientTransform="translate(0 -153.66) scale(1 1.39)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".2" stop-color="#7e79ff"/>
+      <stop offset=".54" stop-color="#6660ff"/>
+      <stop offset=".67" stop-color="#5852ff"/>
+      <stop offset=".72" stop-color="#573cee"/>
+      <stop offset=".78" stop-color="#5622da"/>
+      <stop offset=".85" stop-color="#560fcc"/>
+      <stop offset=".92" stop-color="#5603c3"/>
+      <stop offset="1" stop-color="#5600c1"/>
+    </radialGradient>
+  </defs>
+  <g class="cls-21">
+    <g id="loadingPoster">
+      <g id="backgroundAll">
+        <rect id="backgroundColor" class="cls-15" x="-1540.5" y="-961.25" width="5000" height="3000"/>
+        <rect id="gradient" class="cls-2" x="-1704.7" y="-961" width="5328.4" height="3000"/>
+        <g id="spiral" class="cls-19">
+          <path class="cls-7" d="M1155.5,192c221.19,0,400.5,260.59,400.5,588s-179.31,588-400.5,588l-456.01-120.05c175.55,96.25,444.42-56.57,600.54-341.33,156.12-284.76,140.36-593.62-35.19-689.86"/>
+          <path class="cls-12" d="M1338.2,271.12c102.87,195.82-44.44,475.74-334.29,628.01-287.49,151.02-603.93,114.71-706.8-81.1l-105.79-459.53c-3.56,200.17,256.76,367.13,581.45,372.91s590.8-151.8,594.36-351.97"/>
+          <path class="cls-11" d="M1346.5,498.61c-131.06,178.18-410.78,195.03-628.73,34.71C501.6,374.31,432.6,100.96,563.66-77.22l350.11-308.56C745.69-291.48,688.1-.07,785.15,265.12c97.05,265.19,311.99,403.73,480.08,309.44"/>
+          <path class="cls-10" d="M1021.03,234.22c168.42-143.39,502.61-27.47,750.96,264.23,246.33,289.32,309.49,640.1,141.07,783.49l-438.27,188.66c206.67-28.06,295.48-338.5,198.35-693.4-97.13-354.9-343.4-619.86-550.07-591.8"/>
+        </g>
+      </g>
+      <g id="page">
+        <g id="buttons">
+          <rect id="meetNow" class="posterButton" x="509.5" y="631.5" width="314" height="86" rx="12" ry="12"/>
+          <rect id="buyCTM" class="posterButton" x="209.5" y="631.5" width="245" height="86" rx="12" ry="12"/>
+        </g>
+        <g id="Titles">
+          <text class="cls-18" transform="translate(452.97 328.99)"><tspan x="0" y="0">Meet To Earn</tspan><tspan x="-156.8" y="72">Private Video Chat</tspan></text>
+          <text class="cls-17" transform="translate(159.05 504.78)"><tspan x="0" y="0">Using CTM utility token. No registration or </tspan><tspan x="230.08" y="43.2">identifcation. simply works.</tspan></text>
+        </g>
+      </g>
+      <g id="features" opacity="0.6">
+        <rect class="cls-13" x="1635.5" y="545.5" width="198" height="198" rx="42.87" ry="42.87"/>
+        <rect class="cls-5" x="1636" y="794" width="198" height="198" rx="42.87" ry="42.87"/>
+        <rect class="cls-6" x="1371" y="794" width="198" height="198" rx="42.87" ry="42.87"/>
+      </g>
+      <g id="sphere">
+        <g id="innerBG">
+          <g id="innerBlack">
+            <circle cx="1160.5" cy="391.5" r="200"/>
+            <path class="cls-14" d="M1160.5,191.5c110.46,0,200,89.54,200,200s-89.54,200-200,200-200-89.54-200-200,89.54-200,200-200m0-60c-35.07,0-69.13,6.88-101.22,20.46-30.97,13.1-58.77,31.84-82.63,55.7-23.86,23.86-42.6,51.66-55.7,82.63-13.57,32.09-20.46,66.15-20.46,101.22s6.88,69.13,20.46,101.22c13.1,30.97,31.84,58.77,55.7,82.63,23.86,23.86,51.66,42.6,82.63,55.7,32.09,13.57,66.15,20.46,101.22,20.46s69.13-6.88,101.22-20.46c30.97-13.1,58.77-31.84,82.63-55.7,23.86-23.86,42.6-51.66,55.7-82.63,13.57-32.09,20.46-66.15,20.46-101.22s-6.88-69.13-20.46-101.22c-13.1-30.97-31.84-58.77-55.7-82.63-23.86-23.86-51.66-42.6-82.63-55.7-32.09-13.57-66.15-20.46-101.22-20.46h0Z"/>
+          </g>
+          <circle id="innerGlow" class="cls-9" cx="1160.5" cy="390.5" r="200"/>
+        </g>
+        <g id="me">
+          <circle class="cls-8" cx="1160.5" cy="390.5" r="62"/>
+          <circle class="cls-3" cx="1160.5" cy="390.5" r="62"/>
+        </g>
+        <g id="sphereFrontAll">
+          <path id="sphereFront" class="cls-4" d="M1160.1,190.83c-110.27,0-200,89.74-200,200.01s89.73,199.99,200,199.99,200-89.71,200-199.99-89.73-200.01-200-200.01Zm89.86,322.24c-40.28,0-71.58-25.92-89.71-61.86-1.18-2.2-2.24-4.4-3.18-6.6-7.42-16.5-11.42-34.96-11.42-53.67s3.89-36.31,10.84-52.57c1.65-3.91,3.53-7.7,5.54-11.37h.12c18.61-33.99,48.96-58.19,87.83-58.19,53.95,0,94.36,59.05,94.36,122.13s-44.77,122.13-94.36,122.13Z"/>
+        </g>
+        <g id="project">
+          <g id="sphereFront-2" data-name="sphereFront" class="cls-20">
+            <path class="cls-16" d="M1259.75,532.32c-46.63,0-82.86-30-103.86-71.61-1.36-2.55-2.59-5.09-3.68-7.64-8.59-19.1-13.23-40.47-13.23-62.13s4.5-42.03,12.54-60.85c1.91-4.53,4.09-8.91,6.41-13.16h.14c21.54-39.34,56.68-67.36,101.68-67.36,62.45,0,109.24,68.36,109.24,141.38s-51.83,141.38-109.24,141.38Z"/>
+          </g>
+        </g>
+      </g>
+      <g id="layouts">
+        <rect id="layout1920on1080" class="cls-1" width="1920" height="1080"/>
+        <rect id="layout2" class="cls-1" x="631" y="-841" width="1289" height="1920"/>
+      </g>
+    </g>
+    <g id="old"/>
+  </g>
+
+    <animateTransform
+     xlink:href="#sphere"
+    attributeName="transform"
+    begin="1s"
+    dur="10s"
+    type="rotate"
+		values="0 1160.5 390.5; -360 1160.5 390.5"
+		keyTimes="0; 1"
+		keySplines="0.0, 0.0, 0.58, 1.0;"	
+		calcMode="spline"
+    repeatCount="indefinite"
+    fill="freez"  
+    id="sphere-rotate1"
+    />
+
+               <animateTransform
+     xlink:href="#spiral"
+       attributeName="transform"
+       begin="1s"
+       dur="50s"
+       type="rotate"
+		values="0 1160.5 390.5; -360 1160.5 390.5"
+		keyTimes="0; 1"
+		keySplines="1.0, 0.0, 0.58, 1.0;"	
+		calcMode="spline"
+       repeatCount="indefinite"
+     fill="freez"
+
+    />
+
+</svg>

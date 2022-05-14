@@ -144,3 +144,26 @@ const countDownClock = (number = 100, format = 'seconds') => {
 	days, hours, minutes or seconds
 */
 countDownClock(90, 'days');
+
+// poster
+
+const mqLarge  = window.matchMedia( '(max-width: 800px)' );
+mqLarge.addEventListener('change', mqHandler);
+// initial state
+mqHandler(mqLarge);
+
+// media query handler function
+function mqHandler(e) {
+ 
+	var svg = document.getElementById('svg-poster');
+	var page1 = document.getElementById('page');
+  
+	if (e.matches) { 
+		svg.setAttribute("viewBox","900 -800 1080 1920");
+		page1.setAttribute("transform","translate(1000, -800)");
+	} else {
+		  svg.setAttribute("viewBox","-400 0 2820 1280");
+		  page1.setAttribute("transform","translate(0, 0)");
+	}
+ 
+}

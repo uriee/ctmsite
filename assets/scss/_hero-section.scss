@@ -88,14 +88,39 @@
         }
     }
 
- 
 
-    .buy-now {
-        margin-right: 4%;
-        margin-bottom: 4%;
-      }
-      
-      .meet-now {
+    #slogen {
+        font-weight: 500;
+        line-height: 140%;
+    }
+
+    #subtitle{
+        margin-bottom: 14%;
+     }
+
+    #slogen, #subtitle {
+        text-align: right;
+        color: $ctm-offwhite;
+
+        @media #{$laptop} {
+            text-align: left;
+        }
+        @media #{$lg} {
+            text-align: left;
+        }
+        @media #{$md} {
+            text-align: left;
+        }
+        @media #{$sm} {
+            text-align: left;
+        }
+        @media #{$xs} {
+            text-align: left;
+        }
+        
+    }
+
+    .buy-now, .meet-now {
         margin-right: 4%;
         margin-bottom: 4%;
       }
