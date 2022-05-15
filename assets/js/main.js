@@ -147,23 +147,110 @@ countDownClock(90, 'days');
 
 // poster
 
-const mqLarge  = window.matchMedia( '(max-width: 800px)' );
-mqLarge.addEventListener('change', mqHandler);
-// initial state
-mqHandler(mqLarge);
 
-// media query handler function
-function mqHandler(e) {
- 
-	var svg = document.getElementById('svg-poster');
-	var page1 = document.getElementById('page');
-  
-	if (e.matches) { 
-		svg.setAttribute("viewBox","900 -800 1080 1920");
-		page1.setAttribute("transform","translate(1000, -800)");
-	} else {
-		  svg.setAttribute("viewBox","-400 0 2820 1280");
-		  page1.setAttribute("transform","translate(0, 0)");
-	}
- 
+// var qDesktop = 'only screen and (min-width: 1400px)';
+// var qLaptop = 'only screen and (min-width: 1200px) and (max-width: 1399px)';
+// var qlg = 'only screen and (min-width: 992px) and (max-width: 1199px)';
+// var qMd = 'only screen and (min-width: 768px) and (max-width: 991px)';
+// var qXs = '(max-width: 767px)';
+// var qSm = 'only screen and (min-width: 480px) and (max-width: 767px)';
+
+
+const
+  screen = {
+    desktop : window.matchMedia( '(min-width: 1400px)' ),
+    laptop:  window.matchMedia( '(min-width: 1200px) and (max-width: 1399px)' ),
+    lg : window.matchMedia( '(min-width: 992px) and (max-width: 1199px)' ),
+	md : window.matchMedia( '(min-width: 768px) and (max-width: 991px)' ),
+	xs : window.matchMedia( '(max-width: 767px)' ),
+	sm : window.matchMedia( '(min-width: 480px) and (max-width: 767px)' ),
+  };
+
+
+// media query change events
+for (let [scr, mq] of Object.entries(screen)) {
+	if (mq) mq.addEventListener('change', mqHandler);
 }
+
+mqHandler();
+
+  // media query handler function
+function mqHandler() {
+
+	var svg = document.getElementById('svg-poster');
+	var pageLeft = document.getElementById('pageLeft');
+	var pageUp = document.getElementById('pageUp');
+
+	if (screen['desktop'].matches)
+	{
+		svg.setAttribute("viewBox","-200 700 2400 1200");
+		pageLeft.setAttribute("display","block");
+		pageUp.setAttribute("display","none");
+		return;
+	}
+
+	if (screen['laptop'].matches)
+	{
+		svg.setAttribute("viewBox","-200 600 2400 1400");
+		pageLeft.setAttribute("display","block");
+		pageUp.setAttribute("display","none");
+		return;
+	}
+
+	if (screen['lg'].matches)
+	{
+		svg.setAttribute("viewBox","-200 600 2400 1400");
+		pageLeft.setAttribute("display","block");
+		pageUp.setAttribute("display","none");
+		return;
+	}
+
+	if (screen['md'].matches)
+	{
+		svg.setAttribute("viewBox","800 0 1300 2000");
+		pageLeft.setAttribute("display","none");
+		pageUp.setAttribute("display","block");
+		return;
+	}
+
+	if (screen['sm'].matches)
+	{
+		svg.setAttribute("viewBox","800 0 1300 2000");
+		pageLeft.setAttribute("display","none");
+		pageUp.setAttribute("display","block");
+		return;
+	}
+
+	if (screen['xs'].matches)
+	{
+		svg.setAttribute("viewBox","800 0 1300 2000");
+		pageLeft.setAttribute("display","none");
+		pageUp.setAttribute("display","block");
+		return;
+	}
+
+
+}
+
+// const mqLarge  = window.matchMedia( '(max-width: 800px)' );
+// mqLarge.addEventListener('change', mqHandler);
+// // initial state
+// mqHandler(mqLarge);
+
+// // media query handler function
+// function mqHandler(e) {
+ 
+// 	var svg = document.getElementById('svg-poster');
+// 	var page1 = document.getElementById('page');
+  
+// 	if (e.matches) { 
+// 		svg.setAttribute("viewBox","900 -800 1080 1920");
+// 		page1.setAttribute("transform","translate(1000, -800)");
+// 	} else {
+// 		  svg.setAttribute("viewBox","-400 0 2820 1080");
+// 		  page1.setAttribute("transform","translate(0, 0)");
+// 	}
+ 
+// }
+
+// function layoutPoster()
