@@ -183,7 +183,7 @@ function mqHandler() {
 
 	if (screen['desktop'].matches)
 	{
-		svg.setAttribute("viewBox","-300 700 2600 1200");
+		svg.setAttribute("viewBox","-200.5 1100 2800 1400");
 		pageLeft.setAttribute("display","block");
 		pageUp.setAttribute("display","none");
 		return;
@@ -191,7 +191,7 @@ function mqHandler() {
 
 	if (screen['laptop'].matches)
 	{
-		svg.setAttribute("viewBox","-200 600 2400 1400");
+		svg.setAttribute("viewBox","-0.5 930 2400 1600");
 		pageLeft.setAttribute("display","block");
 		pageUp.setAttribute("display","none");
 		return;
@@ -199,7 +199,7 @@ function mqHandler() {
 
 	if (screen['lg'].matches)
 	{
-		svg.setAttribute("viewBox","-200 600 2400 1400");
+		svg.setAttribute("viewBox","-0.5 930 2400 1600");
 		pageLeft.setAttribute("display","block");
 		pageUp.setAttribute("display","none");
 		return;
@@ -207,7 +207,7 @@ function mqHandler() {
 
 	if (screen['md'].matches)
 	{
-		svg.setAttribute("viewBox","800 0 1300 2000");
+		svg.setAttribute("viewBox","878.5 0 1400 2800");
 		pageLeft.setAttribute("display","none");
 		pageUp.setAttribute("display","block");
 		return;
@@ -215,7 +215,7 @@ function mqHandler() {
 
 	if (screen['sm'].matches)
 	{
-		svg.setAttribute("viewBox","800 0 1300 2000");
+		svg.setAttribute("viewBox","878.5 0 1400 2800");
 		pageLeft.setAttribute("display","none");
 		pageUp.setAttribute("display","block");
 		return;
@@ -223,7 +223,7 @@ function mqHandler() {
 
 	if (screen['xs'].matches)
 	{
-		svg.setAttribute("viewBox","800 0 1300 2000");
+		svg.setAttribute("viewBox","878.5 0 1400 2800");
 		pageLeft.setAttribute("display","none");
 		pageUp.setAttribute("display","block");
 		return;
@@ -241,7 +241,7 @@ window.setInterval(animatePartical, 1500);
 
 function animatePartical()
 {
- 	if(n>10) {n=1;}
+ 	if(n>20) {n=1;}
 
 	const newLocal = "par"+n;
 	var p = document.getElementById(newLocal);

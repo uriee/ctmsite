@@ -15,7 +15,7 @@
     animation: spiralMove 16s ease-in-out infinite;
     -webkit-animation: spiralMove 16s ease-in-out infinite;
     -o-animation: spiralMove 16s ease-in-out infinite;
-    transform-origin:  1200.5px 1146px;
+    transform-origin:  1579.5px 1540px;
     mix-blend-mode: lighten;
 }
 
@@ -24,12 +24,27 @@
         opacity: 0.3;
     }
     100% {
-      cx: 1200.5;
-      cy: 1146;
+      cx: 1579.5;
+      cy: 1540;
       r: 0;
       transform: rotate(-360deg);
     }
 }
+
+.poster-button {
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    border: none;
+    background: $ctm-theam-btn-grad;
+    background-size: 200% auto;
+    overflow: hidden;
+    pointer-events: bounding-box;
+    fill: white;
+}
+
+// .poster-button:hover {
+//     fill: $ctm-svg-border-button-hover-fill;
+// }
 
 .hero-section {
     background: $ctm-hero-grad2; 
