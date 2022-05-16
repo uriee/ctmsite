@@ -1258,6 +1258,42 @@ p {
 /*===========================
     03.Hero-section CSS
 ===========================*/
+.svg-partical {
+  fill: #fff;
+}
+
+.move-to-center {
+  opacity: 0;
+  animation: spiralMove 16s ease-in-out infinite;
+  -webkit-animation: spiralMove 16s ease-in-out infinite;
+  -o-animation: spiralMove 16s ease-in-out infinite;
+  transform-origin: 1200.5px 1146px;
+  mix-blend-mode: lighten;
+}
+
+@-webkit-keyframes spiralMove {
+  10% {
+    opacity: 0.3;
+  }
+  100% {
+    cx: 1200.5;
+    cy: 1146;
+    r: 0;
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes spiralMove {
+  10% {
+    opacity: 0.3;
+  }
+  100% {
+    cx: 1200.5;
+    cy: 1146;
+    r: 0;
+    transform: rotate(-360deg);
+  }
+}
 .hero-section {
   background: linear-gradient(#10001a 0%, #350934 80.69%, #350934 100%);
   padding-top: 50px;

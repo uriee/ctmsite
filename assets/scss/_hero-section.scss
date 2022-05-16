@@ -5,6 +5,32 @@
 //     min-height: 100vh;
 // }
 
+.svg-partical
+{
+    fill: #fff;
+}
+
+.move-to-center {
+    opacity:0.0;
+    animation: spiralMove 16s ease-in-out infinite;
+    -webkit-animation: spiralMove 16s ease-in-out infinite;
+    -o-animation: spiralMove 16s ease-in-out infinite;
+    transform-origin:  1200.5px 1146px;
+    mix-blend-mode: lighten;
+}
+
+@keyframes spiralMove {
+    10% {
+        opacity: 0.3;
+    }
+    100% {
+      cx: 1200.5;
+      cy: 1146;
+      r: 0;
+      transform: rotate(-360deg);
+    }
+}
+
 .hero-section {
     background: $ctm-hero-grad2; 
     padding-top: 50px;

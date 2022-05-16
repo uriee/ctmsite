@@ -183,7 +183,7 @@ function mqHandler() {
 
 	if (screen['desktop'].matches)
 	{
-		svg.setAttribute("viewBox","-200 700 2400 1200");
+		svg.setAttribute("viewBox","-300 700 2600 1200");
 		pageLeft.setAttribute("display","block");
 		pageUp.setAttribute("display","none");
 		return;
@@ -232,25 +232,92 @@ function mqHandler() {
 
 }
 
-// const mqLarge  = window.matchMedia( '(max-width: 800px)' );
-// mqLarge.addEventListener('change', mqHandler);
-// // initial state
-// mqHandler(mqLarge);
+var n = 1;
+var mousex = 0;
+var mousey = 0;
 
-// // media query handler function
-// function mqHandler(e) {
- 
-// 	var svg = document.getElementById('svg-poster');
-// 	var page1 = document.getElementById('page');
-  
-// 	if (e.matches) { 
-// 		svg.setAttribute("viewBox","900 -800 1080 1920");
-// 		page1.setAttribute("transform","translate(1000, -800)");
-// 	} else {
-// 		  svg.setAttribute("viewBox","-400 0 2820 1080");
-// 		  page1.setAttribute("transform","translate(0, 0)");
-// 	}
- 
+window.setInterval(animatePartical, 1500);
+
+
+function animatePartical()
+{
+ 	if(n>10) {n=1;}
+
+	const newLocal = "par"+n;
+	var p = document.getElementById(newLocal);
+
+	p.setAttribute("r","30");
+	p.setAttribute("cx",mousex);
+	p.setAttribute("cy",mousey);
+	p.classList.add("move-to-center");
+	n=n+1;
+}
+
+var svg = document.querySelector('svg');
+// Create an SVGPoint for future math
+var pt = svg.createSVGPoint();
+
+svg.addEventListener('mousemove',function(evt){
+	var loc = cursorPoint(evt);
+	mousex =loc.x;
+	mousey =loc.y;
+  },false);
+
+// Get point in global SVG space
+function cursorPoint(evt){
+  pt.x = evt.clientX; pt.y = evt.clientY;
+  return pt.matrixTransform(svg.getScreenCTM().inverse());
+}
+
+function getRandomArbitrary(min, max) {
+	return Math.random() * (max - min) + min;
+  }
+
+
+
+// function animatePartical()
+// {
+//  	if(n>10) {n=1;}
+
+
+// 	 var cx="1200.5";
+// var cy="1146";
+// 	 var angle = Math.random()*Math.PI*2;
+
+// 	 var r =  getRandomArbitrary(0,100);
+// 	var x = Math.cos(angle)*r;
+// 	var y = Math.sin(angle)*r;
+
+// 	const newLocal = "par"+n;
+// 	var p = document.getElementById(newLocal);
+
+// 	var a = Math.random() > 0.5 ? 1: -1;
+// 	var px = cx+a*r;
+// 	var py = cy+y;
+
+// 	p.setAttribute("r","50");
+// 	p.setAttribute("cx",mousex);
+// 	p.setAttribute("cy",mousey);
+// 	p.classList.add("move-to-center");
+// 	n=n+1;
 // }
 
-// function layoutPoster()
+// var svg = document.getElementsByTagName('svg')[0]; //Get svg element
+// var crc = document.createElementNS("http://www.w3.org/2000/svg", 'circle'); //Create a path in SVG's namespace
+// crc.setAttribute("r","50"); //Set path's data
+// crc.setAttribute("cx","1000"); 
+// crc.setAttribute("cy","1000"); 
+// crc.setAttribute("opacity","0.5"); 
+// crc.setAttribute("id","ci"); 
+// crc.style.stroke = "#fff"; //Set stroke colour
+// crc.style.strokeWidth = "50px"; //Set stroke width
+// svg.appendChild(crc);
+
+// crc.animate({
+// 	duration: 2000,
+// 	delay: 1000,
+// 	when: 'now',
+// 	swing: true,
+// 	times: 5,
+// 	wait: 200
+//   }).attr({ strock: '#f03' })
