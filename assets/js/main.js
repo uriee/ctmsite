@@ -183,7 +183,7 @@ function mqHandler() {
 
 	if (screen['desktop'].matches)
 	{
-		svg.setAttribute("viewBox","-200.5 1100 2800 1400");
+		svg.setAttribute("viewBox","-200.5 1000 2800 1400");
 		pageLeft.setAttribute("display","block");
 		pageUp.setAttribute("display","none");
 		return;
@@ -191,7 +191,7 @@ function mqHandler() {
 
 	if (screen['laptop'].matches)
 	{
-		svg.setAttribute("viewBox","-0.5 930 2400 1600");
+		svg.setAttribute("viewBox","-0.5 1000 2400 1600");
 		pageLeft.setAttribute("display","block");
 		pageUp.setAttribute("display","none");
 		return;
@@ -199,7 +199,7 @@ function mqHandler() {
 
 	if (screen['lg'].matches)
 	{
-		svg.setAttribute("viewBox","-0.5 930 2400 1600");
+		svg.setAttribute("viewBox","-0.5 1000 2400 1700");
 		pageLeft.setAttribute("display","block");
 		pageUp.setAttribute("display","none");
 		return;
@@ -207,7 +207,7 @@ function mqHandler() {
 
 	if (screen['md'].matches)
 	{
-		svg.setAttribute("viewBox","878.5 0 1400 2800");
+		svg.setAttribute("viewBox","878.5 50 1400 2900");
 		pageLeft.setAttribute("display","none");
 		pageUp.setAttribute("display","block");
 		return;
@@ -215,7 +215,7 @@ function mqHandler() {
 
 	if (screen['sm'].matches)
 	{
-		svg.setAttribute("viewBox","878.5 0 1400 2800");
+		svg.setAttribute("viewBox","878.5 50 1400 2900");
 		pageLeft.setAttribute("display","none");
 		pageUp.setAttribute("display","block");
 		return;
@@ -223,7 +223,7 @@ function mqHandler() {
 
 	if (screen['xs'].matches)
 	{
-		svg.setAttribute("viewBox","878.5 0 1400 2800");
+		svg.setAttribute("viewBox","878.5 0 1400 2900");
 		pageLeft.setAttribute("display","none");
 		pageUp.setAttribute("display","block");
 		return;

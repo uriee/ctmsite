@@ -27,24 +27,24 @@
       cx: 1579.5;
       cy: 1540;
       r: 0;
-      transform: rotate(-360deg);
+      transform: rotate(-270deg);
     }
 }
 
 .poster-button {
     cursor: pointer;
-    transition: all .4s ease-in-out;
-    border: none;
-    background: $ctm-theam-btn-grad;
-    background-size: 200% auto;
-    overflow: hidden;
     pointer-events: bounding-box;
-    fill: white;
+    
+    &:hover,
+    &:focus {
+        .poster-button-hover{
+            transition: all .4s ease-in-out;
+            opacity: 1;
+         }
+        }
+
 }
 
-// .poster-button:hover {
-//     fill: $ctm-svg-border-button-hover-fill;
-// }
 
 .hero-section {
     background: $ctm-hero-grad2; 

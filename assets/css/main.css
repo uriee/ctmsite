@@ -1279,7 +1279,7 @@ p {
     cx: 1579.5;
     cy: 1540;
     r: 0;
-    transform: rotate(-360deg);
+    transform: rotate(-270deg);
   }
 }
 
@@ -1291,18 +1291,16 @@ p {
     cx: 1579.5;
     cy: 1540;
     r: 0;
-    transform: rotate(-360deg);
+    transform: rotate(-270deg);
   }
 }
 .poster-button {
   cursor: pointer;
-  transition: all 0.4s ease-in-out;
-  border: none;
-  background: linear-gradient(to right, #5d00ff 0%, #6200ff 50%, #9000ff 100%);
-  background-size: 200% auto;
-  overflow: hidden;
   pointer-events: bounding-box;
-  fill: white;
+}
+.poster-button:hover .poster-button-hover, .poster-button:focus .poster-button-hover {
+  transition: all 0.4s ease-in-out;
+  opacity: 1;
 }
 
 .hero-section {
