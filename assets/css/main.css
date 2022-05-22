@@ -1041,7 +1041,7 @@ p {
 
 .navbar-brand p {
   display: inline-block;
-  color: #5600ff;
+  color: #33a0ff;
   margin-left: 5px;
 }
 .navbar-brand .me {
@@ -1299,7 +1299,7 @@ p {
   pointer-events: bounding-box;
 }
 .poster-button:hover .poster-button-hover, .poster-button:focus .poster-button-hover {
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
   opacity: 1;
 }
 
@@ -1499,6 +1499,9 @@ p {
     font-size: 14px;
     line-height: 22px;
   }
+}
+.features-wrapper .single-feature .feature-content img {
+  width: 180px;
 }
 
 /*===========================
