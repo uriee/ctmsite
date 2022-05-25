@@ -1529,8 +1529,9 @@ p {
   color: #fff;
   margin: 1%;
 }
-.how-section .single-how #info {
-  width: 80%;
+.how-section .single-how #how-videochat {
+  width: 90%;
+  margin-left: 5%;
   align-items: center;
   display: flexbox;
   flex-flow: column;
