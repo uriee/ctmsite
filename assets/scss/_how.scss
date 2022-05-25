@@ -1,0 +1,75 @@
+.how-section {
+
+   // background: $ctm-how-color;
+    a {
+        color: rgb(204, 0, 255);
+    }
+
+
+    .single-how {
+
+        border: 2px solid rgba(255, 255, 255, 0.627);
+        border-radius: 20px;
+        margin:1%;
+        margin-bottom: 4%;
+
+        @include transition(.3s);
+
+          &:hover {
+              background: $ctm-how-hover-color;
+             box-shadow: 0 0 41px $ctm-how-hover-color;
+            // border-radius: 10px;
+         }
+
+        .how-comix {
+            padding: 4%;
+            width: 100%;
+            //height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+           // border-radius: 10px;
+           // background: $ctm-how-color;
+            color: $white;
+           // @include box-shadow(5px 5px 0 rgba($theme-color, .2));
+           margin:1%;
+        }
+
+        #info {
+            width: 80%;
+            align-items: center;
+            display: flexbox;
+            flex-flow: column;
+        }
+
+        .how-text {
+            padding: 2%;
+            padding-left: 4%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid rgba(255, 255, 255, 0.627);
+            border-radius: 20px;
+            color: $white;
+            font-size: 30px;
+            margin-bottom:5%;
+            margin-top: 4%;
+            margin-left: 4%;
+            margin-right: 4%;
+            color: $white;
+
+            p {
+                color: $white;
+                font-weight: 300;
+            }
+
+
+        }
+
+        h4 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+    }
+}
