@@ -1529,6 +1529,9 @@ p {
   color: #fff;
   margin: 1%;
 }
+.how-section .single-how .how-comix img {
+  width: 100%;
+}
 .how-section .single-how #how-videochat {
   width: 90%;
   margin-left: 5%;
