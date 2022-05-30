@@ -1637,6 +1637,32 @@ p {
   margin-bottom: 20px;
 }
 
+.to-buy-section .single-to-buy {
+  padding: 48px 30px;
+  transition: all 0.3s ease-out 0s;
+}
+.to-buy-section .single-to-buy:hover {
+  background: #fff;
+  box-shadow: 0 0 41px rgba(242, 245, 255, 0.47);
+  border-radius: 10px;
+}
+.to-buy-section .single-to-buy .to-buy-icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 10px;
+  background: #365ae1;
+  color: #fff;
+  box-shadow: 5px 5px 0 rgba(54, 90, 225, 0.2);
+}
+.to-buy-section .single-to-buy h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
 .roadmap-section .roadmap-wrapper {
   display: flex;
   align-items: center;
