@@ -3,35 +3,32 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #2e3192;
+
         stroke-width: 5px;
       }
 
       .cls-1, .cls-2, .cls-3, .cls-4 {
-        stroke: #fff;
+        stroke: #cbc952;
+        fill:none;
       }
 
       .cls-1, .cls-2, .cls-4 {
         stroke-miterlimit: 10;
       }
 
-      .cls-2 {
-        fill: #662d91;
-      }
+
 
       .cls-2, .cls-3, .cls-4 {
         stroke-width: 4px;
       }
 
       .cls-3 {
-        fill: #b3b3b3;
+    
         stroke-linecap: round;
         stroke-linejoin: round;
       }
 
-      .cls-4 {
-        fill: #7833ff;
-      }
+
     </style>
   </defs>
   <g id="Comix">
